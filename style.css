@@ -66,7 +66,6 @@ button:active {
 }
 .twitter-button:hover {
     color:#38a1f3;
-    box-shadow: 0 0.5rem 0.5rem 0.1rem rgba(4, 108, 243, 0.5);
 }
 .twitter-button:active {
     box-shadow: 0 0.06rem rgba(0,0,0,0.65);
