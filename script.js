@@ -1,8 +1,16 @@
 const start = document.getElementById("start")
 const container = document.getElementById('container');
+const startbtn = document.getElementById("startbtn")
 
-function showLoading() {
+function showStart() {
     start.hidden = false;
     container.hidden = true; 
 }
-showLoading();
+showStart();
+
+function hideStart() {
+    start.hidden = true;
+    container.hidden = false;
+}
+
+startbtn.addEventListener("click",hideStart)
