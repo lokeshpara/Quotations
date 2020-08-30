@@ -13,4 +13,8 @@ function hideStart() {
     container.hidden = false;
 }
 
-startbtn.addEventListener("click",hideStart)
+// startbtn.addEventListener("click",hideStart)
+const clickEvent = () => {
+    startbtn.onclick = hideStart
+}
+clickEvent()
