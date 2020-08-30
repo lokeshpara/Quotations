@@ -19,6 +19,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+::-webkit-scrollbar {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.703);
+    border-radius: 10px;
+}
 .container {
     width:auto;
     max-width:900px;
@@ -42,6 +52,7 @@ body {
     font-weight:400;
     font-style:italic;
 }
+/* button */
 .button-container {
     margin-top: 15px;
     display:flex;
@@ -67,6 +78,7 @@ button:active {
     transform: translate(0,0.3rem);
     box-shadow: 0 0.06rem rgba(0,0,0,0.65);
 }
+/* twitter button */
 .twitter-button:hover {
     color:#38a1f3;
 }
@@ -74,6 +86,7 @@ button:active {
 .fa-twitter {
     font-size:1.8rem;
 }
+
 /* loader */
 .loader {
     border: 16px solid #f3f3f3;
